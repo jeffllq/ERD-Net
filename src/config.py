@@ -22,7 +22,7 @@ parser.add_argument("--feat-dropout", type=float, default=0.2, help="feat dropou
 parser.add_argument("--max-epochs", type=int, default=20, help="number of maximum training epochs on each time step")
 parser.add_argument("--valid-step", type=int, default=2, help="valid gap")
 parser.add_argument("--mode", type=str, default='pretrain', help="train mode or test mode", choices=['pretrain', 'train','gene_train', 'test'])
-# parser.add_argument("--verse", type=int, default=0, help="是否更改历史窗口长度")
+# parser.add_argument("--verse", type=int, default=0, help="window size change or not")
 parser.add_argument("--filter", type=int, default=0, help="filter metrics or not")
 args = parser.parse_args()
 
