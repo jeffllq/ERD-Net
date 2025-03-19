@@ -1,10 +1,9 @@
-EvolveGCN
 =====
 
 This repository contains the code for [ERD-Net: Modeling Entity and Relation Dynamics for Temporal Knowledge Graph Reasoning]
 ## Data
 
-7 datasets were used in the paper:
+4 datasets were used in the paper:
 
 - YAGO, WIKI, ICEWS14, GDELT: could be found in (https://github.com/INK-USC/RE-Net/tree/master/data)
 
